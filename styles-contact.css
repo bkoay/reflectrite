@@ -1,0 +1,204 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my 
+page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background: url("images/desk-bg.jpg") top no-repeat, url(images/desk2.jpg) bottom repeat;
+	background-size:100%
+}
+
+/*.bg2{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	  background-image:url("images/desk2.jpg");
+	  background-size: 100%;
+	  background-repeat: no-repeat;
+  
+  }
+*/
+
+#logo {
+    margin-bottom: 60px;
+	border: 0px dashed rgb(255, 255, 255);
+	text-align: center;
+}
+
+.logopos {
+    border-radius: 90px;
+	width: 600px;
+	height: 500px; 
+	padding-top: 80px;
+	padding-bottom: 20px;
+    margin: 0px auto;
+ 	background: rgba(255, 255, 255, 0.95); /*this uses opacity of 90% for the bg color*/
+	text-align: center;
+}
+
+.headline{
+	border-radius: 90px;
+	width: 600px;
+	height: 80px; 
+	padding-top: 30px;
+	padding-bottom: 15px;
+    margin: 50px auto;
+	background: rgba(255, 255, 255, 0.95);
+	text-align: center;
+}
+   
+
+.desc1 {
+	border-radius: 90px;
+	width: 600px;
+	height: 200px; 
+	padding-top: 30px;
+	padding-bottom: 20px;
+    margin: 100px auto;
+	background: #425CC7;
+	text-align: center;
+}
+
+.desc2 {
+	border-radius: 90px;
+	width: 600px;
+	height: 330px; 
+	padding-top: 30px;
+	padding-bottom: 20px;
+    margin: 50px auto;
+	background: #425CC7;
+	text-align: center;
+}
+
+.desc3 {
+	border-radius: 90px;
+	width: 600px;
+	height: 270px; 
+	padding-top: 30px;
+	padding-bottom: 20px;
+    margin: 50px auto;
+	background: #425CC7;
+	text-align: center;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'Shrikhand', cursive;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: #ffa400;
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: 'Shrikhand', cursive;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #ffa400;
+    padding: 0px 0px;
+    margin: 0px auto 10px auto;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */	
+	font-family: 'Squada One', cursive;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color:white;
+	padding: 0px 40px;
+    margin: 0px auto 10px auto;
+}
+    
+    
+nav{
+	font-family: 'Squada One', cursive;
+	font-size: 2em;
+	width: 600px;
+	margin: 0 auto;
+	border: solid #ffa400;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+	padding-bottom: 20px;
+
+}
+
+nav li{
+	display: inline;
+
+}
+
+nav a{
+	display: inline-block;
+	padding: 15px;
+}
+
+a{
+	color: #425CC7;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #425CC7;
+	background: #ffa400;
+
+}
